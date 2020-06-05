@@ -1,0 +1,94 @@
+.post
+    background: #FFFFFF
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15)
+    border-radius: 4px
+    margin: 16px 0
+    padding: 16px
+    &-header
+        display: flex
+        justify-content: space-between
+        margin-bottom: 16px
+        &__button
+            background-color: #ffffff
+            border: none
+    &-user 
+        display: flex
+        align-items: center
+        &__avatar
+            width: 48px
+            height: 48px 
+            margin-right: 12px
+        &__info
+            display: flex
+            flex-wrap: wrap  
+        &__autore
+            width: 100%  
+            font-size: 14px
+            font-weight: 600
+            line-height: 22px
+            color: #0050B3  
+            text-decoration: none  
+        &__time
+            font-size: 14px
+            line-height: 22px  
+            color: #8C8C8C 
+            &::after
+                display: inline-block
+                border-radius: 50%
+                content: ""
+                width: 4px
+                height: 4px
+                background-color: #bfbfbf
+                margin-right: 6px
+                margin-left: 6px
+                vertical-align: middle
+        &__object
+            display: flex
+            align-items: center  
+    &-content 
+        &__text
+            font-size: 14px
+            line-height: 22px
+            color: #595959
+            margin-bottom: 16px
+        &__link
+            color: #096DD9  
+            text-decoration: none  
+        &__image
+            border: 1px solid #BFBFBF
+            border-radius: 4px  
+            min-width: 100%
+    &-likes
+        margin-top: 9px
+        margin-bottom: 9px 
+        display: flex
+        align-items: center
+        &__counter
+            font-size: 14px
+            line-height: 22px 
+            color: #595959 
+            margin-left: 4px
+    &-fotter
+        display: flex
+        justify-content: space-around
+        flex-wrap: wrap
+        &::before
+            content: ""
+            width: 100%
+            height: 1px
+            background-color: #e8e8e8
+            margin-bottom: 16px
+            width: 100%
+        
+        &__button
+            background-color: #fff
+            border: none
+            display: flex
+            align-items: center
+        &__text
+            font-weight: 600
+            font-size: 14px
+            line-height: 22px 
+            color: #595959 
+            margin-left: 8px
+
